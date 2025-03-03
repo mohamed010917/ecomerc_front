@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-main{
+  --tw-text-opacity: 1 !important ;
+  color:rgb(244 44 55 / var(--tw-text-opacity)) !important;
+}
+.pg-main{
+  background-color: rgb(244 44 55 / var(--tw-text-opacity));
+  --tw-text-opacity: 1 ;
+}
+
